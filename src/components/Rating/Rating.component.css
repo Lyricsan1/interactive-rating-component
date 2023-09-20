@@ -1,0 +1,77 @@
+.rating {
+  border-radius: 18px;
+  width: 425px;
+  height: 450px;
+  padding: 35px;
+  color: white;
+  background-image: radial-gradient(
+    at center top,
+    rgb(37, 45, 55),
+    rgb(18, 20, 23)
+  );
+}
+
+.rating .star-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: hsl(213, 20%, 18%);
+}
+
+.rating h1 {
+  margin-top: 36px;
+}
+
+.rating p {
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+  margin-top: 20px;
+}
+
+.rating .btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 36px;
+}
+
+.rating button {
+  width: 55px;
+  height: 55px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: hsl(213, 20%, 18%);
+  color: hsl(217, 12%, 63%);
+  transition: all 0.2s ease;
+}
+
+.rating button:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
+
+.rating button:focus {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.rating .submit-button {
+  border-radius: 18px;
+  height: 45px;
+  width: 100%;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 4px;
+  margin-top: 36px;
+}
+
+.rating .submit-button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
